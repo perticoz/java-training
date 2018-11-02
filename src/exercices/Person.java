@@ -67,7 +67,7 @@ public class Person {
     // where you replace {name} and {age} with attributes values
 
     public String whoAmI() {
-        return "My name is "+this.getName()+ " and I'm "+ this.getAge();
+        return "My name is "+this.getName()+ " and I'm "+ String.valueOf(this.getAge());
     }
 
 
